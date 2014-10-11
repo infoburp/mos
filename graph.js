@@ -15,14 +15,19 @@ var svg = d3.select("body").append("svg")
 
 var link = svg.selectAll(".link"),
     node = svg.selectAll(".node");
-        
+/*        
 var jsonurl = "http://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&section=1&page=List_of_free_and_open-source_software_packages&callback=?";
 $.getJSON( jsonurl, function( data ) {
     d3.json(data, function(error, json) {
       root = json;
       update();
     });
-}
+}*/
+
+   d3.json(data, function(error, json) {
+      root = json;
+      update();
+    });
 
 function update() {
   var nodes = flatten(root),
