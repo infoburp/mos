@@ -148,7 +148,7 @@
           [
             {"name": "Forensics"}
           ]
-        {"name": "Disk erasing
+        {"name": "Disk erasing"},
         {"name": "Encryption","children":
           [
             {"name": "Disk encryption"}
