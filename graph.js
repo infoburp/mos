@@ -24,7 +24,7 @@ $.getJSON( jsonurl, function( data ) {
     });
 }*/
 
-   d3.json(data, function(error, json) {
+   d3.json("graph.json", function(error, json) {
       root = json;
       update();
     });
