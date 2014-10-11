@@ -154,7 +154,7 @@
           [
             {"name": "Disk encryption"}
           ]
-        }
+        },
         {"name": "Firewall"},
         {"name": "Network and security monitoring"},
         {"name": "Secure Shell (ssh)"},
