@@ -148,6 +148,7 @@
           [
             {"name": "Forensics"}
           ]
+        },
         {"name": "Disk erasing"},
         {"name": "Encryption","children":
           [
@@ -164,7 +165,7 @@
       [
         {"name": "Bible study tools"}
       ]
-    }
+    },
     {"name": "Typesetting"}
   ]
 }
